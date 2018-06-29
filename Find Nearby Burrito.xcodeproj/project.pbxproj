@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2437D02520E428FE002AECCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437D02420E428FE002AECCB /* AppDelegate.swift */; };
+		2437D02720E428FE002AECCB /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437D02620E428FE002AECCB /* LocationVC.swift */; };
+		2437D02A20E428FE002AECCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2437D02820E428FE002AECCB /* Main.storyboard */; };
+		2437D02C20E42900002AECCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2437D02B20E42900002AECCB /* Assets.xcassets */; };
+		2437D02F20E42900002AECCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2437D02D20E42900002AECCB /* LaunchScreen.storyboard */; };
+		2437D03B20E42A95002AECCB /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437D03A20E42A95002AECCB /* LocationService.swift */; };
+		2437D03D20E42D5D002AECCB /* FoodListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437D03C20E42D5D002AECCB /* FoodListTableVC.swift */; };
+		2437D03F20E42D8C002AECCB /* FoodListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437D03E20E42D8C002AECCB /* FoodListTVC.swift */; };
+		2437D04120E49BAF002AECCB /* RestaurantsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2437D04020E49BAF002AECCB /* RestaurantsList.swift */; };
+		A140702B545BDDD63AF461E9 /* Pods_Find_Nearby_Burrito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EE8EC5E7B752CCF194D8E8 /* Pods_Find_Nearby_Burrito.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A1898FF72AB996B31B924A /* Pods-Find Nearby Burrito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Nearby Burrito.release.xcconfig"; path = "Pods/Target Support Files/Pods-Find Nearby Burrito/Pods-Find Nearby Burrito.release.xcconfig"; sourceTree = "<group>"; };
+		0EBB83F063CF463969FB655A /* Pods-Find Nearby Burrito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find Nearby Burrito.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Find Nearby Burrito/Pods-Find Nearby Burrito.debug.xcconfig"; sourceTree = "<group>"; };
+		2437D02120E428FE002AECCB /* Find Nearby Burrito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find Nearby Burrito.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2437D02420E428FE002AECCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2437D02620E428FE002AECCB /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		2437D02920E428FE002AECCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2437D02B20E42900002AECCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2437D02E20E42900002AECCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2437D03020E42900002AECCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2437D03A20E42A95002AECCB /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		2437D03C20E42D5D002AECCB /* FoodListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableVC.swift; sourceTree = "<group>"; };
+		2437D03E20E42D8C002AECCB /* FoodListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTVC.swift; sourceTree = "<group>"; };
+		2437D04020E49BAF002AECCB /* RestaurantsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsList.swift; sourceTree = "<group>"; };
+		89EE8EC5E7B752CCF194D8E8 /* Pods_Find_Nearby_Burrito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Find_Nearby_Burrito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2437D01E20E428FE002AECCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A140702B545BDDD63AF461E9 /* Pods_Find_Nearby_Burrito.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2437D01820E428FE002AECCB = {
+			isa = PBXGroup;
+			children = (
+				2437D02320E428FE002AECCB /* Find Nearby Burrito */,
+				2437D02220E428FE002AECCB /* Products */,
+				98996D79FEED19924A42C0D8 /* Pods */,
+				DE356F35637F91353BD8B024 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2437D02220E428FE002AECCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2437D02120E428FE002AECCB /* Find Nearby Burrito.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2437D02320E428FE002AECCB /* Find Nearby Burrito */ = {
+			isa = PBXGroup;
+			children = (
+				2437D03620E4290A002AECCB /* Modles */,
+				2437D03720E4290D002AECCB /* Views */,
+				2437D03820E4290F002AECCB /* Controllers */,
+				2437D03920E42A62002AECCB /* Service */,
+				2437D03020E42900002AECCB /* Info.plist */,
+				2437D02420E428FE002AECCB /* AppDelegate.swift */,
+			);
+			path = "Find Nearby Burrito";
+			sourceTree = "<group>";
+		};
+		2437D03620E4290A002AECCB /* Modles */ = {
+			isa = PBXGroup;
+			children = (
+				2437D04020E49BAF002AECCB /* RestaurantsList.swift */,
+			);
+			path = Modles;
+			sourceTree = "<group>";
+		};
+		2437D03720E4290D002AECCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2437D02820E428FE002AECCB /* Main.storyboard */,
+				2437D02D20E42900002AECCB /* LaunchScreen.storyboard */,
+				2437D02B20E42900002AECCB /* Assets.xcassets */,
+				2437D03E20E42D8C002AECCB /* FoodListTVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2437D03820E4290F002AECCB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2437D02620E428FE002AECCB /* LocationVC.swift */,
+				2437D03C20E42D5D002AECCB /* FoodListTableVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2437D03920E42A62002AECCB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2437D03A20E42A95002AECCB /* LocationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		98996D79FEED19924A42C0D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EBB83F063CF463969FB655A /* Pods-Find Nearby Burrito.debug.xcconfig */,
+				01A1898FF72AB996B31B924A /* Pods-Find Nearby Burrito.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE356F35637F91353BD8B024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89EE8EC5E7B752CCF194D8E8 /* Pods_Find_Nearby_Burrito.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2437D02020E428FE002AECCB /* Find Nearby Burrito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2437D03320E42900002AECCB /* Build configuration list for PBXNativeTarget "Find Nearby Burrito" */;
+			buildPhases = (
+				4714AABE1BC7C3193026326B /* [CP] Check Pods Manifest.lock */,
+				2437D01D20E428FE002AECCB /* Sources */,
+				2437D01E20E428FE002AECCB /* Frameworks */,
+				2437D01F20E428FE002AECCB /* Resources */,
+				600AD6F3D05369B85E879BC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Find Nearby Burrito";
+			productName = "Find Nearby Burrito";
+			productReference = 2437D02120E428FE002AECCB /* Find Nearby Burrito.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2437D01920E428FE002AECCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Pan Lin";
+				TargetAttributes = {
+					2437D02020E428FE002AECCB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2437D01C20E428FE002AECCB /* Build configuration list for PBXProject "Find Nearby Burrito" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2437D01820E428FE002AECCB;
+			productRefGroup = 2437D02220E428FE002AECCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2437D02020E428FE002AECCB /* Find Nearby Burrito */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2437D01F20E428FE002AECCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2437D02F20E42900002AECCB /* LaunchScreen.storyboard in Resources */,
+				2437D02C20E42900002AECCB /* Assets.xcassets in Resources */,
+				2437D02A20E428FE002AECCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4714AABE1BC7C3193026326B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Find Nearby Burrito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600AD6F3D05369B85E879BC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Find Nearby Burrito/Pods-Find Nearby Burrito-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Find Nearby Burrito/Pods-Find Nearby Burrito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2437D01D20E428FE002AECCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2437D02720E428FE002AECCB /* LocationVC.swift in Sources */,
+				2437D03D20E42D5D002AECCB /* FoodListTableVC.swift in Sources */,
+				2437D03B20E42A95002AECCB /* LocationService.swift in Sources */,
+				2437D04120E49BAF002AECCB /* RestaurantsList.swift in Sources */,
+				2437D03F20E42D8C002AECCB /* FoodListTVC.swift in Sources */,
+				2437D02520E428FE002AECCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2437D02820E428FE002AECCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2437D02920E428FE002AECCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2437D02D20E42900002AECCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2437D02E20E42900002AECCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2437D03120E42900002AECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2437D03220E42900002AECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2437D03420E42900002AECCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBB83F063CF463969FB655A /* Pods-Find Nearby Burrito.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7U9584BGB;
+				INFOPLIST_FILE = "Find Nearby Burrito/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PandaPanTech.Find-Nearby-Burrito";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2437D03520E42900002AECCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A1898FF72AB996B31B924A /* Pods-Find Nearby Burrito.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7U9584BGB;
+				INFOPLIST_FILE = "Find Nearby Burrito/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PandaPanTech.Find-Nearby-Burrito";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2437D01C20E428FE002AECCB /* Build configuration list for PBXProject "Find Nearby Burrito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2437D03120E42900002AECCB /* Debug */,
+				2437D03220E42900002AECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2437D03320E42900002AECCB /* Build configuration list for PBXNativeTarget "Find Nearby Burrito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2437D03420E42900002AECCB /* Debug */,
+				2437D03520E42900002AECCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2437D01920E428FE002AECCB /* Project object */;
+}
